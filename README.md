@@ -89,10 +89,6 @@ Auto-detects an AXON state directory under `--input` (looks for `AXON_LEDGER.jso
 
 ## Results & Limitations
 
-[TODO: add real benchmark numbers — AUC/accuracy on a held-out set, for AXON and/or PHANTOM — if you're comfortable sharing them, otherwise leave as not yet published.]
+Benchmark numbers are not yet published. PHANTOM's evaluation stage reports bootstrapped 95% CI on AUC, calibration (ECE), per-generator AUC and robustness under JPEG recompression and downscaling.
 
 PHANTOM's own code flags one thing worth repeating here: a base AUC above 0.999 with low measured leakage on supposedly unseen generators is called out by the script itself as "unusual" and worth double-checking that holdout sources are truly disjoint generators, not a result to take at face value.
-
-## What's next
-
-[TODO: team's actual near-term roadmap for AXON/PHANTOM.]
