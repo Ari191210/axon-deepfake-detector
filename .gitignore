@@ -1,0 +1,11 @@
+.env
+.env.*
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+*.pth
+*.pt
+checkpoints/
+registry/
+gpu_workers/
