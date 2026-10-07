@@ -1,6 +1,6 @@
 # AXON — Deepfake Detector
 
-Co-lead, Team AXON. Deepfake detection on EVA-02, EfficientNetV2, CLIP and DINOv2, plus PHANTOM (DINOv2 + FFT frequency branch). This repo holds two pipelines that share state:
+Team AXON: student team project on deepfake detection. This repo holds two pipelines that share state:
 
 - **`src/axon_sota_v10.py`** — the original four-backbone ensemble (EVA-02, EfficientNetV2-M, CLIP, DINOv2) with handcrafted frequency/DCT/residual streams. See "AXON pipeline" below.
 - **`src/phantom_v3.py`** — a newer, single-backbone (DINOv2) pipeline with multi-scale features and a real FFT frequency branch, built to warmstart from and extend AXON's saved state (champion checkpoint, EWC, replay buffer). See "PHANTOM pipeline" below.
